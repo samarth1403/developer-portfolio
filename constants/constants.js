@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     title: 'NewsBite',
-    description: "NewsBite is an online communication medium for internet users to read all news over the world. This news portal will provide news about different sectors like Sports, Business, Technology, Entertainment, Head and Science.",
+    description: "NewsBite is an online communication medium for internet users to read all news over the world. This news portal will provide news about different sectors like Sports, Business, Technology, Entertainment, Health and Science.",
       image: "https://lh5.googleusercontent.com/Hk5TM3wvnyGoJcY-3GhL8XMhQ7_rhlaJ6ON6lFxbc-EdGgpbIEhng6f1THrG6C23Uto=w2400",
       tags: ['React.js','BootStrap','JavaScript','HTML'],
     source: 'https://github.com/samarth1403/NewsBite',
