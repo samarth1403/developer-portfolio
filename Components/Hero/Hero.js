@@ -16,9 +16,9 @@ const Hero = (props) => (
         Welcome to my Portfolio
       </SectionTitle>
       <SectionText>
-        I am a Full Stack Developer . I love to make websites .
+        I am a Front-end Web Developer . I love to develop website features that can enhance the user experience.
       </SectionText>
-      <Button onClick={()=> window.location.href = 'https://google.com'}>Learn More</Button>
+      <Button onClick={()=> window.location.href = '#about'}>About Me</Button>
     </LeftSection>
   </Section>
 );
