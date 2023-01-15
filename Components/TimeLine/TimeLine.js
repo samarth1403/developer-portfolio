@@ -3,7 +3,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
-
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
@@ -48,9 +47,7 @@ const Timeline = () => {
       <br/>
       <br/>
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText>
+      <SectionText>Hello , Myself Samarth Ikkalaki. My main goal is to develop website features that can enhance the user experience. I love to make websites which can increase the user interaction.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

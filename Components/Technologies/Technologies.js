@@ -16,7 +16,8 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size='3rem'/>
+      <DiReact size='3rem'/>
+        
         <br/>
         <ListContainer>
           <ListTitle>Front End</ListTitle>
@@ -26,22 +27,22 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiReact size='3rem'/>
+      <DiFirebase size='3rem'/>
         <br/>
         <ListContainer>
           <ListTitle>Back End</ListTitle>
           <ListParagraph>Experience with <br/>
-                Node.js
+                Node.js and MongoDB 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem'/>
+      <DiReact size='3rem'/>
         <br/>
         <ListContainer>
           <ListTitle>Front End</ListTitle>
           <ListParagraph>Experience with <br/>
-                React.js
+                Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>

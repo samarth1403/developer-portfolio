@@ -19,6 +19,7 @@ const Hero = (props) => (
         I am a Front-end Web Developer . I love to develop website features that can enhance the user experience.
       </SectionText>
       <Button onClick={()=> window.location.href = '#about'}>About Me</Button>
+      <Button onClick={()=> window.location.href = '#skills'}>Skills</Button>
     </LeftSection>
   </Section>
 );
