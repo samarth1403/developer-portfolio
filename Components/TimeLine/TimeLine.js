@@ -48,7 +48,7 @@ const Timeline = () => {
       <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>Hello , Myself Samarth Ikkalaki. My main goal is to develop website features that can enhance the user experience. I love to make websites which can increase the user interaction.</SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll} style={{padding:"25px",borderRadius:"30px"}}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode

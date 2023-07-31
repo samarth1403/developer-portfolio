@@ -40,9 +40,9 @@ const Technologies = () =>  (
       <DiReact size='3rem'/>
         <br/>
         <ListContainer>
-          <ListTitle>Front End</ListTitle>
+          <ListTitle>Full Stack</ListTitle>
           <ListParagraph>Experience with <br/>
-                Next.js
+                React JS & Node JS
           </ListParagraph>
         </ListContainer>
       </ListItem>
