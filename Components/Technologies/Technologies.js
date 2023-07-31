@@ -21,7 +21,7 @@ const Technologies = () =>  (
         <br/>
         <ListContainer>
           <ListTitle>Front End</ListTitle>
-          <ListParagraph>Experience with <br/>
+          <ListParagraph>Experience with<br/>
                 React.js
           </ListParagraph>
         </ListContainer>
